@@ -84,7 +84,7 @@ extension AddNewCellViewController: AddNewCellViewOutputProtocol {
 }
 
 extension AddNewCellViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    func presentPhotoActionSheet() {
+    private func presentPhotoActionSheet() {
         let actionSheet = UIAlertController(title: "Note Picture",
                                             message: nil,
                                             preferredStyle: .actionSheet)
@@ -96,7 +96,7 @@ extension AddNewCellViewController: UIImagePickerControllerDelegate, UINavigatio
         present(actionSheet, animated: true)
     }
     
-    func presentPhotoPicker() {
+    private func presentPhotoPicker() {
         let vc = UIImagePickerController()
         vc.sourceType = .photoLibrary
         vc.delegate = self

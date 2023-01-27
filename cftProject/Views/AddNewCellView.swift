@@ -93,7 +93,6 @@ final class AddNewCellView: UIView {
         deleteButton.addTarget(self, action: #selector(deleteButtonAction), for: .touchUpInside)
         
         imageView.isUserInteractionEnabled = true
-        
         let gesture = UITapGestureRecognizer(target: self, action: #selector(didTapImage))
         imageView.addGestureRecognizer(gesture)
         
