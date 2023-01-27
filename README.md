@@ -14,3 +14,9 @@
      Here is the result of the created note.
 
 <img width="394" alt="Снимок экрана 2023-01-27 в 21 25 00" src="https://user-images.githubusercontent.com/58136391/215165575-f5dfe10c-f641-4ec3-b733-6bb8ecc83217.png">
+
+
+    You can change the note and mark it as completed!
+
+![Uploading Снимок экрана 2023-01-27 в 21.38.30.png…]() <img width="426" alt="Снимок экрана 2023-01-27 в 21 40 12" src="https://user-images.githubusercontent.com/58136391/215168520-08ba57d6-380e-40e1-aa22-82a159e3fab2.png">
+
